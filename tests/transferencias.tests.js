@@ -5,7 +5,7 @@ import { pegarBaseUrl } from '../utils/variaveis.js'
 
 export const options = {
     stages: [
-        { duration: '10s', target: 10 },
+        { duration: '30s', target: 50 },
     ],
     thresholds: {
         http_req_duration: ['p(90)<3000','max<5000'],
